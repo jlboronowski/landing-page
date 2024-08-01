@@ -21,6 +21,7 @@ body {
     display: flex;
     gap: 18px;
     list-style: none;
+    justify-content: center;
 }
 
 .header-links li a {
@@ -34,6 +35,10 @@ body {
     font-size: 24px;
 }
 
+.header-logo {
+    width: 100px;
+    height: 90px;
+}
 
 /* Content */
 
