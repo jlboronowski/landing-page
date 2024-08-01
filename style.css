@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 150px 0px;
+}
+
+.header-links{
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+
+.header-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+/* Content */
+
+/* Section-one */
+
+.section-one {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 50px;
+    
+}
+
+.section-one-content {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    row-gap: 12px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.section-one-content-img img {
+    width: 450px;
+    height: 250px;
+    
+    
+}
+
+.Sign-up {
+    background-color: #3882F6;
+    color: white;
+    max-width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+/* Section two */
+
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 250px 50px;
+}
+
+.section-two-content {
+  display:flex;
+  padding: 20px 20px;
+  gap: 12px;
+}
+
+.section-two h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section-two-subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    max-width: 120px;
+    
+}
+.section-two-subcontent img {
+    width: 100px;
+    height: 100px;
+    border: 2px blue solid;
+    border-radius: 10px;
+}
+.section-two-subcontent p{
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+  
+
+/* Section-three */
